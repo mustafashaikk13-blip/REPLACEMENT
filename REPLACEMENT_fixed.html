@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08090d">
+<title>REPLACEMENT</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap');
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#202130,#08090d 65%);color:#f4f5f8;font-family:'Noto Sans Telugu',sans-serif;padding:18px;display:flex;justify-content:center;align-items:center}
+.panel{width:100%;max-width:520px;min-height:90vh;border:1px solid #303442;border-radius:22px;padding:24px;background:linear-gradient(155deg,#171925,#0a0b11);box-shadow:0 25px 90px #0009}
+header{display:flex;justify-content:space-between;border-bottom:1px solid #303442;padding-bottom:16px;color:#a0a5b3;font:11px 'DM Mono',monospace;letter-spacing:1.5px}
+.dot{color:#ff4357}.page{display:none;min-height:70vh;flex-direction:column;justify-content:center}.page:target{display:flex}#home{display:flex}body:has(.page:target:not(#home)) #home{display:none}
+.kicker{color:#ff4357;font:11px 'DM Mono',monospace;letter-spacing:2.5px;margin:0 0 18px}
+h1{font:500 clamp(38px,10vw,60px) 'DM Mono',monospace;letter-spacing:-2px;margin:0 0 16px}
+.question{font-size:clamp(21px,5.5vw,28px);line-height:1.7;font-weight:700;margin:12px 0 26px}
+.sub{color:#b0b5c2;line-height:1.9;font-size:14px;margin:0 0 26px}
+a.btn{display:block;text-align:center;text-decoration:none;border:1px solid #414657;border-radius:11px;padding:15px 12px;margin:10px 0;color:#f4f5f8;background:#1b1e2a;font-weight:700;font-size:14px}
+a.primary{background:#ff4357;border-color:#ff4357;color:#090a0e}
+a.tile{display:block;text-decoration:none;text-align:left;border:1px solid #353a49;border-radius:13px;padding:17px;margin:11px 0;background:#11141d;color:#e9eaf0}
+.tile b{display:block;color:#ff4357;font:12px 'DM Mono',monospace;letter-spacing:1.5px;margin-bottom:9px}.tile span{font-size:14px;line-height:1.8}
+.note{color:#82899a;font:10px 'DM Mono',monospace;letter-spacing:1.4px;margin-top:25px}
+.report{border:1px solid #713441;background:#24151c;border-radius:14px;padding:20px;margin:18px 0}
+.percent{font:500 clamp(34px,9vw,46px) 'DM Mono',monospace;color:#ff4357;margin:12px 0}
+.report p{line-height:1.9;font-size:14px}.final{font-size:17px;line-height:2.1;font-weight:600;margin:20px 0}
+.back{color:#a0a5b3!important;background:transparent!important;border-color:transparent!important}
+</style>
+</head>
+<body>
+<main class="panel">
+<header><span><i class="dot">●</i> SYSTEM ONLINE</span><span>RPL-001 / 2026</span></header>
+
+<section class="page" id="home">
+<p class="kicker">PERSONAL IDENTITY SCAN</p>
+<h1>REPLACEMENT</h1>
+<p class="sub">ఒక చిన్న ప్రశ్న.<br>మీ గురించి మీరు నిజంగా ఆలోచించడానికి సిద్ధంగా ఉన్నారా?</p>
+<p class="question">మీ జీవితంలో మిమ్మల్ని ఎవరైనా రీప్లేస్ చేయగలరా?</p>
+<a class="btn primary" href="#categories">YES, I THINK SO</a>
+<a class="btn" href="#sure">NO, NEVER</a>
+<p class="note">THIS TEST MAY CHANGE HOW YOU SEE YOURSELF.</p>
+</section>
+
+<section class="page" id="sure">
+<p class="kicker">SYSTEM RESPONSE</p><h1 style="font-size:38px">ARE YOU SURE?</h1>
+<p class="question">మీరు లేని చోట కూడా మీ ఉనికి అలాగే ఉంటుందని నిజంగా అనుకుంటున్నారా?</p>
+<a class="btn primary" href="#categories">CONTINUE ANYWAY</a>
+<a class="btn back" href="#home">← GO BACK</a>
+</section>
+
+<section class="page" id="categories">
+<p class="kicker">REPLACEMENT ANALYSIS / 01—03</p>
+<h1 style="font-size:35px">SELECT A CATEGORY</h1>
+<p class="sub">మీ జీవితంలో ఏది మీ లేకుండానే కొనసాగగలదు? ఒక్కొక్కదాన్ని ఓపెన్ చేయండి.</p>
+<a class="tile" href="#job"><b>01 / YOUR JOB</b><span>మీరు లేకపోయినా మీ పని ఆగదు. ఇంకొకరు చేస్తారు.</span></a>
+<a class="tile" href="#friendship"><b>02 / YOUR FRIENDSHIP</b><span>మీరు మాట్లాడటం ఆపేస్తే, వాళ్లు ఇంకొకరితో మాట్లాడటం మొదలుపెడతారు.</span></a>
+<a class="tile" href="#identity"><b>03 / YOUR IDENTITY</b><span>మరి మీరు ఎవరు?</span></a>
+<p class="note">TAP EACH FILE TO READ</p>
+</section>
+
+<section class="page" id="job">
+<p class="kicker">FILE 01 / YOUR JOB</p><h1 style="font-size:36px">YOUR JOB.</h1>
+<p class="question">మీరు లేకపోయినా మీ పని ఆగదు. ఇంకొకరు చేస్తారు.</p>
+<p class="sub">ఒక్కసారి ఆలోచించండి. మీ స్థానంలో మరొకరు వచ్చినా ప్రపంచం ఆగిపోదు.</p>
+<a class="btn primary" href="#categories">NEXT FILE →</a><a class="btn back" href="#categories">← ALL FILES</a>
+</section>
+<section class="page" id="friendship">
+<p class="kicker">FILE 02 / YOUR FRIENDSHIP</p><h1 style="font-size:36px">YOUR FRIENDSHIP.</h1>
+<p class="question">మీరు మాట్లాడటం ఆపేస్తే, వాళ్లు ఇంకొకరితో మాట్లాడటం మొదలుపెడతారు.</p>
+<p class="sub">కొన్ని చోట్ల మన గైర్హాజరీని కూడా ఎవరూ గమనించకపోవచ్చు.</p>
+<a class="btn primary" href="#categories">NEXT FILE →</a><a class="btn back" href="#categories">← ALL FILES</a>
+</section>
+<section class="page" id="identity">
+<p class="kicker">FILE 03 / YOUR IDENTITY</p><h1 style="font-size:36px">YOUR IDENTITY.</h1>
+<p class="question">మరి మీరు ఎవరు?</p>
+<p class="sub">మీ పేరు, మీ పని, మీ చుట్టూ ఉన్న మనుషులు ఇవన్నీ పక్కన పెడితే... మీరెవరు?</p>
+<a class="btn primary" href="#result">GENERATE FINAL REPORT →</a><a class="btn back" href="#categories">← ALL FILES</a>
+</section>
+
+<section class="page" id="result">
+<p class="kicker">FINAL SYSTEM REPORT</p><h1 style="font-size:38px">ANALYSIS<br>COMPLETE.</h1>
+<div class="report"><div class="note" style="margin:0">REPLACEMENT REPORT</div><div class="percent">100% REPLACEABLE</div><p><b>REASON:</b><br>మీరు అందరికీ అందుబాటులో ఉన్నారు.<br>కానీ మీకోసం మీరు ఎప్పుడూ అందుబాటులో లేరు.</p></div>
+<p class="final">ఈ ప్రపంచంలో మనిషిని రీప్లేస్ చేయడం చాలా ఈజీ అయిపోయింది...<br><br>మన స్థానాన్ని ఇంకొకరు తీసుకోవచ్చు...<br>కానీ మన జీవితాన్ని మన బదులు ఇంకొకరు బతకలేరు.</p>
+<a class="btn primary" href="#home">RESTART THE TEST</a>
+<p class="note">END OF REPORT / TAKE A MOMENT.</p>
+</section>
+</main>
+</body></html>
